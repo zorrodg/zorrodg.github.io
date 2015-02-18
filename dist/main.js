@@ -7,9 +7,7 @@ var React = _interopRequire(require("react"));
 
 var _ = _interopRequire(require("lodash"));
 
-//top.location.href = '//co.linkedin.com/in/zorrodg/';
-
-console.log("Trace this!");
+top.location.href = "//co.linkedin.com/in/zorrodg/";
 
 module.exports = {};
 
