@@ -1,0 +1,7 @@
+{
+  "browserify":true,
+  "quotmark":true,
+  "maxcomplexity":5,
+  "indent":2,
+  "esnext":true
+}
