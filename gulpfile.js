@@ -5,21 +5,21 @@
  */
 
 // Project dependencies
-var gulp = require('gulp'),
+var gulp       = require('gulp'),
     browserify = require('browserify'),
-    watchify = require('watchify'),
-    reactify = require('reactify'),
-    babelify = require('babelify'),
-    source = require('vinyl-source-stream'),
-    buffer = require('vinyl-buffer'),
-    gp = require('gulp-load-plugins')({
+    watchify   = require('watchify'),
+    reactify   = require('reactify'),
+    babelify   = require('babelify'),
+    source     = require('vinyl-source-stream'),
+    buffer     = require('vinyl-buffer'),
+    gp         = require('gulp-load-plugins')({
       pattern: ['gulp-*', 'gulp.*'],
       replaceString: /\bgulp[\-.]/
     }),
 
     // Config Variables
-    _min  = gp.util.env.min ? '.min' : '',
-    _paths = require('./package.json').paths;
+    _min       = gp.util.env.min ? '.min' : '',
+    _paths     = require('./package.json').paths;
 
 
 gulp.task('default', [
@@ -36,7 +36,7 @@ gulp.task('build:js', js(false));
 function js (watch) {
   var bundler = browserify({
     basedir: './' + _paths.src.root,
-    debug: false
+    debug: true
   });
 
   bundler.add('./' + _paths.src.js)
@@ -55,9 +55,7 @@ function js (watch) {
           .pipe(source('main' + _min + '.js'))
           .pipe(buffer())
           .pipe(gp.jshint())
-          .pipe(gp.sourcemaps.init({loadMaps: true})) // loads map from browserify file
           .pipe(_min ? plugins.uglify() : gp.util.noop())
-          .pipe(gp.sourcemaps.write('./')) // writes .map file
           .pipe(gulp.dest(_paths.dist.root))
           .pipe(gp.notify('Bundle success'));
   }
