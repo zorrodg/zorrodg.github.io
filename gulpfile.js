@@ -36,7 +36,7 @@ gulp.task('build:js', js(false));
 function js (watch) {
   var bundler = browserify({
     basedir: './' + _paths.src.root,
-    debug: true
+    debug: watch
   });
 
   bundler.add('./' + _paths.src.js)
@@ -57,6 +57,9 @@ function js (watch) {
           .pipe(gp.jshint())
           .pipe(_min ? plugins.uglify() : gp.util.noop())
           .pipe(gulp.dest(_paths.dist.root))
-          .pipe(gp.notify('Bundle success'));
+          .pipe(gp.notify({
+            title: 'JS',
+            message: 'Bundle success'
+          }));
   }
 }
