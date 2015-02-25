@@ -1,0 +1,7 @@
+{
+  "preset": "crockford",
+  "esnext": true,
+  "esprima": "./node_modules/esprima-fb/esprima.js",
+  "validateIndentation": 2,
+  "disallowDanglingUnderscores": null
+}
