@@ -49,6 +49,7 @@ function lint() {
     return gulp.src(sources)
       .pipe(gp.jscs())
       .on("error", handleError)
+      .pipe(gp.react())
       .pipe(gp.jshint())
       .pipe(gp.jshint.reporter("jshint-stylish"))
       .pipe(gp.jshint.reporter("fail"))
