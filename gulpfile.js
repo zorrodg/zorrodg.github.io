@@ -1,10 +1,12 @@
+"use strict";
+
 /**
  * Gulpfile!
  * @package zorro-portfolio
  * @author Andrés Zorro <zorrodg@gmail.com>
  */
 
-// Project dependencies
+// Project dependencies ========================
 var gulp       = require("gulp"),
     browserify = require("browserify"),
     watchify   = require("watchify"),
@@ -28,7 +30,7 @@ var gulp       = require("gulp"),
     ];
 
 
-// Tasks
+// Tasks =======================================
 gulp.task("default", ["build:js:watch"]);
 gulp.task("build", ["build:js"]);
 gulp.task("build:js:watch", ["lint:js", "watch"], js(true));
@@ -90,7 +92,7 @@ function js(watch) {
     return bundler.bundle()
           .pipe(source("main" + _min + ".js"))
           .pipe(buffer())
-          .pipe(_min ? plugins.uglify() : gp.util.noop())
+          .pipe(_min ? gp.uglify() : gp.util.noop())
           .pipe(gulp.dest(_paths.dist.root))
           .pipe(gp.notify({
             title: "JS",

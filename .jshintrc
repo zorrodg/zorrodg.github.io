@@ -1,6 +1,6 @@
 {
   "browserify":true,
-  "quotmark":true,
+  "quotmark":"double",
   "maxcomplexity":5,
   "indent":2,
   "esnext":true
