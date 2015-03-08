@@ -523,7 +523,15 @@
 			"file": "src/main.jsx",
 			"settings":
 			{
-				"buffer_size": 161,
+				"buffer_size": 147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".jshintrc",
+			"settings":
+			{
+				"buffer_size": 98,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +539,7 @@
 			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 2262,
+				"buffer_size": 2427,
 				"line_ending": "Unix"
 			}
 		}
@@ -657,6 +665,7 @@
 	],
 	"file_history":
 	[
+		"/Users/andreszorro/workspace/personal/portfolio/.eslintrc",
 		"/Users/andreszorro/workspace/personal/portfolio/.sublimelinterrc",
 		"/Users/andreszorro/workspace/sears/syw-shoes/public/src/components/_productList/productListView.html",
 		"/Users/andreszorro/workspace/sears/syw-shoes/protractor_conf.js.js",
@@ -783,8 +792,7 @@
 		"/Users/andreszorro/workspace/personal/marraneando/server/mailing/bulk.js",
 		"/Users/andreszorro/workspace/personal/marraneando/server/mailing/templates/order-complete.html",
 		"/Users/andreszorro/workspace/personal/marraneando/server/endpoints/countries.js",
-		"/Users/andreszorro/workspace/personal/marraneando/server/mailing",
-		"/Users/andreszorro/workspace/personal/marraneando/src/app.jsx"
+		"/Users/andreszorro/workspace/personal/marraneando/server/mailing"
 	],
 	"find":
 	{
@@ -995,7 +1003,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1004,15 +1012,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 161,
+						"buffer_size": 147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								51,
+								51
 							]
 						],
 						"settings":
@@ -1024,24 +1032,52 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "gulpfile.js",
+					"file": ".jshintrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2262,
+						"buffer_size": 98,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								108,
-								108
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								843
 							]
 						],
 						"settings":

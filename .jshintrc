@@ -1,7 +1,13 @@
 {
   "browserify":true,
+  "browser": true,
+  "strict": true,
   "quotmark":"double",
   "maxcomplexity":5,
   "indent":2,
-  "esnext":true
+  "esnext":true,
+  "unused": true,
+  "predef": [
+    "console"
+  ]
 }
