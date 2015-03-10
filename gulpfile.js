@@ -7,14 +7,15 @@
  */
 
 // Project dependencies ========================
-var gulp       = require("gulp"),
-    browserify = require("browserify"),
-    watchify   = require("watchify"),
-    reactify   = require("reactify"),
-    babelify   = require("babelify"),
-    source     = require("vinyl-source-stream"),
-    buffer     = require("vinyl-buffer"),
-    gp         = require("gulp-load-plugins")({
+var gulp        = require("gulp"),
+    browserSync = require("browser-sync"),
+    browserify  = require("browserify"),
+    watchify    = require("watchify"),
+    reactify    = require("reactify"),
+    babelify    = require("babelify"),
+    source      = require("vinyl-source-stream"),
+    buffer      = require("vinyl-buffer"),
+    gp          = require("gulp-load-plugins")({
       pattern: ["gulp-*", "gulp.*"],
       replaceString: /\bgulp[\-.]/
     }),
@@ -31,7 +32,13 @@ var gulp       = require("gulp"),
 
 
 // Tasks =======================================
-gulp.task("default", ["build:js:watch"]);
+gulp.task("default", ["build:js:watch"], function () {
+  browserSync({
+    server: {
+      baseDir: "./"
+    }
+  });
+});
 gulp.task("build", ["build:js"]);
 gulp.task("build:js:watch", ["lint:js", "watch"], js(true));
 gulp.task("build:js", ["lint:js"], js(false));
@@ -94,6 +101,7 @@ function js(watch) {
           .pipe(buffer())
           .pipe(_min ? gp.uglify() : gp.util.noop())
           .pipe(gulp.dest(_paths.dist.root))
+          .pipe(browserSync.reload({stream:true}))
           .pipe(gp.notify({
             title: "JS",
             message: "Bundle success"
