@@ -15,8 +15,6 @@ import Project from "./components/project/main.jsx";
 // TODO: Figure out how to load async data to create components
 import projectsData from "./../test/projects.json";
 
-// top.location.href = "//co.linkedin.com/in/zorrodg/";
-
 React.render((
 
   <section className="projects">

@@ -520,58 +520,42 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/Procfile",
-			"settings":
-			{
-				"buffer_size": 41,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/andreszorro/workspace/personal/marraneando/Procfile",
-			"settings":
-			{
-				"buffer_size": 23,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/andreszorro/workspace/personal/marraneando/Package.json",
-			"settings":
-			{
-				"buffer_size": 2591,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/package.json",
-			"settings":
-			{
-				"buffer_size": 463,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/index.js",
 			"settings":
 			{
-				"buffer_size": 238,
+				"buffer_size": 1161,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "portfolio.sublime-project",
+			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/endpoints/projects.js",
 			"settings":
 			{
-				"buffer_size": 179,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/.gitignore",
+			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/config/ln.js",
 			"settings":
 			{
-				"buffer_size": 14,
+				"buffer_size": 750,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/endpoints/ln.js",
+			"settings":
+			{
+				"buffer_size": 1387,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/nodemon.json",
+			"settings":
+			{
+				"buffer_size": 390,
 				"line_ending": "Unix"
 			}
 		},
@@ -579,7 +563,15 @@
 			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/.jshintrc",
 			"settings":
 			{
-				"buffer_size": 55,
+				"buffer_size": 170,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andreszorro/workspace/personal/backend-portfolio/.jscsrc",
+			"settings":
+			{
+				"buffer_size": 112,
 				"line_ending": "Unix"
 			}
 		}
@@ -698,11 +690,18 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-	],
 	"file_history":
 	[
+		"/Users/andreszorro/workspace/personal/portfolio/portfolio.sublime-project",
+		"/Users/andreszorro/workspace/personal/backend-portfolio/package.json",
+		"/Users/andreszorro/workspace/personal/backend-portfolio/Procfile",
+		"/Users/andreszorro/workspace/personal/backend-portfolio/endpoints/projects.js",
+		"/Users/andreszorro/workspace/personal/backend-portfolio/endpoints/projects",
+		"/Users/andreszorro/workspace/personal/backend-portfolio/node_modules/koa-route/index.js",
+		"/Users/andreszorro/workspace/personal/portfolio/.gitignore",
+		"/Users/andreszorro/workspace/personal/backend-portfolio/.gitignore",
+		"/Users/andreszorro/workspace/personal/marraneando/Package.json",
+		"/Users/andreszorro/workspace/personal/marraneando/Procfile",
 		"/Users/andreszorro/workspace/personal/portfolio/gulpfile.js",
 		"/Users/andreszorro/workspace/personal/portfolio/.jshintrc",
 		"/Users/andreszorro/workspace/personal/portfolio/src/main.jsx",
@@ -730,7 +729,6 @@
 		"/Users/andreszorro/workspace/sears/syw-shoes/node_modules/grunt-ng-annotate/node_modules/.bin/ng-annotate",
 		"/Users/andreszorro/workspace/sears/syw-shoes/bower_components/numeral/numeral.js",
 		"/Users/andreszorro/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/andreszorro/workspace/personal/portfolio/portfolio.sublime-project",
 		"/Users/andreszorro/workspace/sears/syw-shoes/public/src/services/affiliateProductsCJService.js",
 		"/Users/andreszorro/workspace/sears/syw-shoes/public/src/components/_productTile/scripts/cjProductTileModule.js",
 		"/Users/andreszorro/workspace/sears/syw-shoes/public/src/components/_productTile/scripts/productTileModule.js",
@@ -821,16 +819,7 @@
 		"/Users/andreszorro/workspace/sears/syw-shoes/public/src/.jscsrc",
 		"/Users/andreszorro/workspace/sears/syw-shoes/public/src/components/_productTileCJ/styles/productTile.less",
 		"/Users/andreszorro/workspace/zemoga/zvacation/src/api/mySqlManager.js",
-		"/Users/andreszorro/workspace/personal/marraneando/src/pages/Quiero.scss",
-		"/Users/andreszorro/workspace/personal/marraneando/src/pages/Quiero.jsx",
-		"/Users/andreszorro/workspace/personal/marraneando/src/common/utils.js",
-		"/Users/andreszorro/workspace/personal/marraneando/server/endpoints/orders.js",
-		"/Users/andreszorro/workspace/personal/marraneando/server/mailing/transactional.js",
-		"/Users/andreszorro/workspace/personal/marraneando/server/config/mlchmp.js",
-		"/Users/andreszorro/workspace/personal/marraneando/server/config/mndrll.js",
-		"/Users/andreszorro/workspace/personal/marraneando/server/mailing/templates/admin-new-order.html",
-		"/Users/andreszorro/workspace/personal/marraneando/server/mailing/bulk.js",
-		"/Users/andreszorro/workspace/personal/marraneando/server/mailing/templates/order-complete.html"
+		"/Users/andreszorro/workspace/personal/marraneando/src/pages/Quiero.scss"
 	],
 	"find":
 	{
@@ -880,6 +869,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"'",
 			"retailPrice",
 			"input",
 			"strong",
@@ -1006,8 +996,7 @@
 			"affilateProducts",
 			"BrandsList",
 			"brandsList",
-			"'",
-			".isShowPanel"
+			"'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1041,163 +1030,16 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/Procfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 41,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/andreszorro/workspace/personal/marraneando/Procfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/andreszorro/workspace/personal/marraneando/Package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								495,
-								456
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 31.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								335,
-								335
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 238,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "portfolio.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 179,
+						"buffer_size": 1161,
 						"regions":
 						{
 						},
@@ -1210,37 +1052,11 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/.gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14,
-								14
-							]
-						],
-						"settings":
-						{
+							"auto_complete": false,
 							"open_with_edit": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1250,20 +1066,145 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/.jshintrc",
+					"buffer": 1,
+					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/endpoints/projects.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 55,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								53,
-								53
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/config/ln.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								750,
+								750
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/endpoints/ln.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1378,
+								1378
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 25.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/nodemon.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/.jshintrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1275,7 +1216,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/andreszorro/workspace/personal/backend-portfolio/.jscsrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1866,7 +1836,7 @@
 	"show_open_files": true,
 	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 254.0,
+	"side_bar_width": 183.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
