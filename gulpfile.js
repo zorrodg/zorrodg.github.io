@@ -101,7 +101,7 @@ function js(watch) {
           .pipe(buffer())
           .pipe(_min ? gp.uglify() : gp.util.noop())
           .pipe(gulp.dest(_paths.dist.root))
-          .pipe(browserSync.reload({stream:true}))
+          .pipe(browserSync.reload({stream: true}))
           .pipe(gp.notify({
             title: "JS",
             message: "Bundle success"

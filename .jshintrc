@@ -3,7 +3,7 @@
   "browser": true,
   "strict": true,
   "quotmark":"double",
-  "maxcomplexity":5,
+  "maxcomplexity":10,
   "indent":2,
   "esnext":true,
   "unused": true,
